@@ -1,4 +1,3 @@
-```json
 {
 "name": "Video List PWA",
 "short_name": "VideoList",
@@ -11,4 +10,3 @@
 { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
 ]
 }
-```
