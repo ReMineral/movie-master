@@ -1,4 +1,3 @@
-```jsx
 export const themes = {
 dark: {
 bg: "bg-gray-900",
@@ -11,4 +10,3 @@ text: "text-black",
 card: "bg-white"
 }
 };
-```
