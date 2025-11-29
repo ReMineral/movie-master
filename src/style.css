@@ -1,0 +1,92 @@
+/* Minimalist global styles with light/dark support */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Light Theme */
+:root {
+  --bg: #f5f5f5;
+  --text: #111;
+  --card: #ffffff;
+  --border: #dcdcdc;
+  --accent: #2563eb;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg: #0d0d0d;
+  --text: #e5e5e5;
+  --card: #1a1a1a;
+  --border: #333;
+  --accent: #3b82f6;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Card */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  transition: background 0.3s ease, border 0.3s ease;
+}
+
+/* Button */
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Input Fields */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  margin-bottom: 12px;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Note Indicator */
+.note-indicator {
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 8px;
+}
