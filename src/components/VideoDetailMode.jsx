@@ -1,4 +1,3 @@
-```jsx
 import React from "react";
 
 export default function VideoDetailMode() {
@@ -9,4 +8,3 @@ export default function VideoDetailMode() {
     </div>
   );
 }
-```
