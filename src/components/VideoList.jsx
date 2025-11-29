@@ -1,4 +1,3 @@
-```jsx
 import React, { useState } from "react";
 
 export default function VideoList() {
@@ -11,4 +10,3 @@ export default function VideoList() {
     </div>
   );
 }
-```
