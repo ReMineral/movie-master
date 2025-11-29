@@ -1,4 +1,3 @@
-```jsx
 import Dexie from "dexie";
 
 const db = new Dexie("videoDB");
@@ -8,4 +7,3 @@ db.version(1).stores({
 });
 
 export default db;
-```
