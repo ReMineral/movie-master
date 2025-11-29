@@ -1,4 +1,3 @@
-```jsx
 import React, { useState } from "react";
 import { themes } from "./theme";
 import VideoList from "./components/VideoList";
@@ -37,4 +36,3 @@ export default function App() {
     </div>
   );
 }
-```
